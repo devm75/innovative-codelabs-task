@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+.form-container {
+    width: 60%;
+  margin: auto;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top:5rem;
+  padding:40px;
+}
+.form-field {
+  width: 40%;
+}
+.name-input-field {
+  width: 100%;
+  height: 30px;
+}
+.button-container {
+  margin-top: 30px;
+}
+
+.gender-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
